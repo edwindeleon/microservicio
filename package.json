@@ -1,0 +1,28 @@
+{
+  "name": "microservicio",
+  "version": "1.0.0",
+  "description": "ejercicio para crear un microservicio",
+  "main": "./index.js",
+  "scripts": {
+    "start": "micro -p 3000 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwindeleon/microservicio.git"
+  },
+  "keywords": [
+    "microservicios",
+    "NodeJs"
+  ],
+  "author": "Edwin De Leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwindeleon/microservicio/issues"
+  },
+  "homepage": "https://github.com/edwindeleon/microservicio#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "jsdom": "^9.8.3",
+    "micro": "^6.1.0"
+  }
+}
